@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class EditorTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class EditorTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; EditorTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">1</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">4.467s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">0%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="start"></a>
+<h3 class="failures">start</h3>
+<span class="code">
+<pre>java.lang.AssertionError: Fatal error in test #39, please send the report to support@hyperskill.org
+
+OS Mac OS X
+Java 11.0.5
+Vendor JetBrains s.r.o
+Testing library version 6
+
+Cannot be cloned: nothing
+Cannot be reset: nothing
+Cannot deserialize: nothing
+Cannot serialize: nothing
+Circular links: nothing
+
+org.assertj.swing.exception.ComponentLookupException: Unable to find component using matcher org.assertj.swing.core.TypeMatcher[type=javax.swing.JTextField, requireShowing=true].
+
+Component hierarchy:
+javax.swing.JFileChooser[name='FileChooser', dialogTitle=null, dialogType=OPEN_DIALOG, currentDirectory=/Users/euvaganov/IdeaProjects/Text Editor1/Text Editor/task, enabled=true, visible=true, showing=true
+  javax.swing.Box$Filler[,275,0,1x10,alignmentX=0.0,alignmentY=0.0,border=,flags=0,maximumSize=java.awt.Dimension[width=1,height=10],minimumSize=java.awt.Dimension[width=1,height=10],preferredSize=java.awt.Dimension[width=1,height=10]]
+  javax.swing.JPanel[name=null]
+    javax.swing.JPanel[name=null]
+      javax.swing.JPanel[name=null]
+        javax.swing.JPanel[name=null]
+          javax.swing.JLabel[name=null, text='File:', enabled=true, visible=true, showing=false]
+          javax.swing.JTextField[name=null, text='SomeFile.txt', enabled=true, visible=true, showing=false]
+        javax.swing.Box$Filler[,0,36,0x8,alignmentX=0.0,alignmentY=0.0,border=,flags=0,maximumSize=java.awt.Dimension[width=1,height=8],minimumSize=java.awt.Dimension[width=1,height=8],preferredSize=java.awt.Dimension[width=1,height=8]]
+        com.apple.laf.AquaFileChooserUI$6[,0,44,0x1,alignmentX=0.0,alignmentY=0.0,border=,flags=0,maximumSize=,minimumSize=,preferredSize=,orientation=HORIZONTAL]
+        javax.swing.Box$Filler[,0,45,0x7,alignmentX=0.0,alignmentY=0.0,border=,flags=0,maximumSize=java.awt.Dimension[width=1,height=7],minimumSize=java.awt.Dimension[width=1,height=7],preferredSize=java.awt.Dimension[width=1,height=7]]
+    javax.swing.JComboBox[name=null, selectedItem=/Users/euvaganov/IdeaProjects/Text Editor1/Text Editor/task, contents=[/Users/euvaganov/IdeaProjects/Text Editor1/Text Editor/task,
+    /Users/euvaganov/IdeaProjects/Text Editor1/Text Editor,
+    /Users/euvaganov/IdeaProjects/Text Editor1,
+    /Users/euvaganov/IdeaProjects,
+    /Users/euvaganov,
+    /Users,
+    /], editable=false, enabled=true, visible=true, showing=true]
+      com.apple.laf.AquaComboBoxButton[name=null, text='', enabled=true, visible=true, showing=true]
+      javax.swing.CellRendererPane[,0,0,0x0,hidden]
+        com.apple.laf.AquaFileChooserUI$4(com.apple.laf.AquaComboBoxRendererInternal)[name=null, text='task', enabled=true, visible=true, showing=false]
+  javax.swing.Box$Filler[,275,37,1x10,alignmentX=0.0,alignmentY=0.0,border=,flags=0,maximumSize=java.awt.Dimension[width=1,height=10],minimumSize=java.awt.Dimension[width=1,height=10],preferredSize=java.awt.Dimension[width=1,height=10]]
+  javax.swing.JPanel[name=null]
+    javax.swing.JPanel[name=null]
+    javax.swing.JPanel[name=null]
+      javax.swing.JScrollPane[name=null, enabled=true, visible=true, showing=true]
+        javax.swing.JViewport[,2,18,531x233,layout=javax.swing.ViewportLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=25165832,maximumSize=,minimumSize=,preferredSize=,isViewSizeSet=true,lastPaintPosition=java.awt.Point[x=0,y=0],scrollUnderway=false]
+          com.apple.laf.AquaFileChooserUI$JTableExtension[name=null, rowCount=5, columnCount=2, enabled=true, visible=true, showing=true]
+            javax.swing.CellRendererPane[,0,0,0x0,hidden]
+        javax.swing.JScrollPane$ScrollBar[name=null, value=0, blockIncrement=10, minimum=0, maximum=90, enabled=true, visible=true, showing=true]
+        javax.swing.JScrollPane$ScrollBar[name=null, value=0, blockIncrement=10, minimum=0, maximum=531, enabled=true, visible=false, showing=false]
+        com.apple.laf.AquaFileChooserUI$ScrollPaneCornerPanel[name=null]
+        javax.swing.JViewport[,2,2,531x16,layout=javax.swing.ViewportLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=25165832,maximumSize=,minimumSize=,preferredSize=,isViewSizeSet=false,lastPaintPosition=java.awt.Point[x=0,y=0],scrollUnderway=false]
+          com.apple.laf.AquaFileChooserUI$JSortingTableHeader[,0,0,531x16,alignmentX=0.0,alignmentY=0.0,border=,flags=16777544,maximumSize=,minimumSize=,preferredSize=,draggedDistance=0,reorderingAllowed=true,resizingAllowed=true,updateTableInRealTime=true]
+            javax.swing.CellRendererPane[,0,0,0x0,hidden]
+  javax.swing.JPanel[name=null]
+    javax.swing.JPanel[name=null]
+      javax.swing.JLabel[name=null, text='File Format:', enabled=true, visible=true, showing=true]
+      javax.swing.JComboBox[name=null, selectedItem=com.apple.laf.AquaFileChooserUI$AcceptAllFileFilter@64b1607e, contents=[com.apple.laf.AquaFileChooserUI$AcceptAllFileFilter@64b1607e], editable=false, enabled=true, visible=true, showing=true]
+        com.apple.laf.AquaComboBoxButton[name=null, text='', enabled=true, visible=true, showing=true]
+        javax.swing.CellRendererPane[,0,0,0x0,hidden]
+          com.apple.laf.AquaFileChooserUI$5(com.apple.laf.AquaComboBoxRendererInternal)[name=null, text='All Files', enabled=true, visible=true, showing=false]
+    javax.swing.Box$Filler[,268,53,10x1,alignmentX=0.0,alignmentY=0.0,border=,flags=0,maximumSize=java.awt.Dimension[width=10,height=1],minimumSize=java.awt.Dimension[width=10,height=1],preferredSize=java.awt.Dimension[width=10,height=1]]
+    javax.swing.JPanel[name=null]
+      javax.swing.Box$Filler[,0,0,550x5,alignmentX=0.0,alignmentY=0.0,border=,flags=0,maximumSize=java.awt.Dimension[width=32767,height=5],minimumSize=java.awt.Dimension[width=0,height=5],preferredSize=java.awt.Dimension[width=0,height=5]]
+      javax.swing.JPanel[name=null]
+        javax.swing.JPanel[name=null]
+          javax.swing.Box$Filler[,0,0,20x0,alignmentX=0.0,alignmentY=0.0,border=,flags=0,maximumSize=java.awt.Dimension[width=20,height=32767],minimumSize=java.awt.Dimension[width=20,height=0],preferredSize=java.awt.Dimension[width=20,height=0]]
+          javax.swing.JButton[name=null, text='New Folder', enabled=true, visible=false, showing=false]
+        javax.swing.JPanel[name=null]
+          javax.swing.JButton[name=null, text='Open', enabled=true, visible=false, showing=false]
+          javax.swing.Box$Filler[,0,14,8x0,alignmentX=0.0,alignmentY=0.0,border=,flags=0,maximumSize=java.awt.Dimension[width=8,height=32767],minimumSize=java.awt.Dimension[width=8,height=0],preferredSize=java.awt.Dimension[width=8,height=0]]
+          javax.swing.JButton[name=null, text='Cancel', enabled=true, visible=true, showing=true]
+          javax.swing.Box$Filler[,94,14,8x0,alignmentX=0.0,alignmentY=0.0,border=,flags=0,maximumSize=java.awt.Dimension[width=8,height=32767],minimumSize=java.awt.Dimension[width=8,height=0],preferredSize=java.awt.Dimension[width=8,height=0]]
+          javax.swing.JButton[name=null, text='Open', enabled=false, visible=true, showing=true]
+          javax.swing.Box$Filler[,179,14,20x0,alignmentX=0.0,alignmentY=0.0,border=,flags=0,maximumSize=java.awt.Dimension[width=20,height=32767],minimumSize=java.awt.Dimension[width=20,height=0],preferredSize=java.awt.Dimension[width=20,height=0]]
+      javax.swing.Box$Filler[,0,34,550x12,alignmentX=0.0,alignmentY=0.0,border=,flags=0,maximumSize=java.awt.Dimension[width=32767,height=12],minimumSize=java.awt.Dimension[width=0,height=12],preferredSize=java.awt.Dimension[width=0,height=12]]
+
+	at org.assertj.swing.core.BasicComponentFinder.componentNotFound(BasicComponentFinder.java:287)
+	at org.assertj.swing.core.BasicComponentFinder.find(BasicComponentFinder.java:272)
+	at org.assertj.swing.core.BasicComponentFinder.find(BasicComponentFinder.java:265)
+	at org.assertj.swing.core.BasicComponentFinder.findByType(BasicComponentFinder.java:122)
+	at org.assertj.swing.core.BasicComponentFinder.findByType(BasicComponentFinder.java:116)
+	at org.assertj.swing.driver.JFileChooserDriver.fileNameTextBox(JFileChooserDriver.java:126)
+	at org.assertj.swing.fixture.JFileChooserFixture.fileNameTextBox(JFileChooserFixture.java:124)
+	at EditorTest.fileAction(EditorTest.java:144)
+	at EditorTest.lambda$generate$57(EditorTest.java:424)
+	at EditorTest.check(EditorTest.java:751)
+	at EditorTest.check(EditorTest.java:29)
+	at org.hyperskill.hstest.v6.stage.BaseStageTest.checkSolution(BaseStageTest.java:260)
+	at org.hyperskill.hstest.v6.stage.BaseStageTest.start(BaseStageTest.java:153)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:118)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:175)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:157)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.hyperskill.hstest.v6.stage.BaseStageTest.start(BaseStageTest.java:172)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:118)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:175)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:157)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="failures">start</td>
+<td class="failures">4.467s</td>
+<td class="failures">failed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>?[1;31m
+Start test 1?[0m
+?[1;31m
+Start test 2?[0m
+?[1;31m
+Start test 3?[0m
+?[1;31m
+Start test 4?[0m
+?[1;31m
+Start test 5?[0m
+?[1;31m
+Start test 6?[0m
+?[1;31m
+Start test 7?[0m
+?[1;31m
+Start test 8?[0m
+?[1;31m
+Start test 9?[0m
+?[1;31m
+Start test 10?[0m
+?[1;31m
+Start test 11?[0m
+?[1;31m
+Start test 12?[0m
+?[1;31m
+Start test 13?[0m
+?[1;31m
+Start test 14?[0m
+?[1;31m
+Start test 15?[0m
+?[1;31m
+Start test 16?[0m
+?[1;31m
+Start test 17?[0m
+?[1;31m
+Start test 18?[0m
+?[1;31m
+Start test 19?[0m
+?[1;31m
+Start test 20?[0m
+?[1;31m
+Start test 21?[0m
+?[1;31m
+Start test 22?[0m
+?[1;31m
+Start test 23?[0m
+?[1;31m
+Start test 24?[0m
+?[1;31m
+Start test 25?[0m
+?[1;31m
+Start test 26?[0m
+?[1;31m
+Start test 27?[0m
+?[1;31m
+Start test 28?[0m
+?[1;31m
+Start test 29?[0m
+?[1;31m
+Start test 30?[0m
+?[1;31m
+Start test 31?[0m
+?[1;31m
+Start test 32?[0m
+?[1;31m
+Start test 33?[0m
+?[1;31m
+Start test 34?[0m
+?[1;31m
+Start test 35?[0m
+?[1;31m
+Start test 36?[0m
+?[1;31m
+Start test 37?[0m
+?[1;31m
+Start test 38?[0m
+?[1;31m
+Start test 39?[0m
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.3.1</a> at 12 апр. 2020 г., 22:05:34</p>
+</div>
+</div>
+</body>
+</html>
